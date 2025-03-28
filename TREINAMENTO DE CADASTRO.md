@@ -1,563 +1,536 @@
-TREINAMENTO DE CADASTRO 
- - RODRIGO AMARAL
+# Treinamento de Cadastro  
+**Rodrigo Amaral**
 
-Objetivos do treinamento:
+## Objetivos do treinamento:
 
- - capacitar para saber registrar corretamente informações relevantes, para minimizar erros e garantir uma transição suave na implementação do ERP.
+- Capacitar para saber registrar corretamente informações relevantes, minimizando erros e garantindo uma transição suave na implementação do ERP.
 
+---
 
+## Importância do cadastro de dados:
 
-Importância do cadastro de dados:
+- O cadastro de dados é fundamental para o sucesso das operações de uma empresa, pois fornece informações precisas para a tomada de decisões e otimiza processos como faturamento e compras.
 
- - o cadastro de dados é fundamental para o sucesso das operações de um empresa, pois fornece informações precisas para a tomada de decisões e otimiza processos como faturamento e compras.
+---
 
-Estrutura do sistema ERP:
- - O sistema ERP integra diferentes áreas da empresa, permitindo um fluxo de informações continuo entre departamentos, desde finanças ate logística, garantindo uma gestão unificada.
+## Estrutura do sistema ERP:
 
-Integração: 
- - É a junção de dois sistemas que se conversão entre si
+- O sistema ERP integra diferentes áreas da empresa, permitindo um fluxo de informações contínuo entre departamentos, desde finanças até logística, garantindo uma gestão unificada.
 
---------------------------------------------------------
+---
 
-Cadastros principais
+## Integração:
 
-- CADASTRO GERAL
-- CADASTRO DE ITENS
-- INFORMAÇOES FISCAIS PARA FATURAMENTO
-- CONFIGURAÇÃO INICIAL DO SISTEMA
+- É a junção de dois sistemas que se comunicam entre si.
 
----------------------------------------------------------
+---
 
-- CADASTRO GERAL:
+## Cadastros principais:
 
-  - Cadastro geral é fundamental para o gerenciamento da empresa, informações como:
+- **Cadastro Geral**
+- **Cadastro de Itens**
+- **Informações Fiscais para Faturamento**
+- **Configuração Inicial do Sistema**
 
-   - Razão social
-   - CNPJ
-   - Endereço
-   - Limite de credito
-   
-  - Devem ser registradas no sistema ERP para facilitar a administração e tomada de decisões.
+---
 
--------------------------------------------------
+### Cadastro Geral:
 
-CADASTRO DE ITENS:
+Cadastro geral é fundamental para o gerenciamento da empresa. Informações como:
+- Razão social
+- CNPJ
+- Endereço
+- Limite de crédito
 
-  - O cadastro de itens inclui dados cruciais: como 
-    - NOME
-    - TARAS
-    - CLASSIFICAÇÃO
-    - LAYOUT
+Devem ser registradas no sistema ERP para facilitar a administração e a tomada de decisões.
 
----------------------------------------------------
+---
 
-INFORMAÇOES FISCAIS PARA FATURAMENTO:
+### Cadastro de Itens:
 
- - CFOP
- - TRIBUTAÇÃO
- - ICMS
+O cadastro de itens inclui dados cruciais, como:  
+- **Nome**  
+- **Taras**  
+- **Classificação**  
+- **Layout**
 
----------------------------------------------------------
+---
 
-CONFIGURAÇÃO INICIAL DO SISTEMA:
- 
- - PERMISSÕES 
- - CRIAÇÃO DE USUARIOS
- - OPERAÇÕES DA EMPRESA
+### Informações Fiscais para Faturamento:
 
----------------------------------------------------------
+- **CFOP**  
+- **Tributação**  
+- **ICMS**
 
-PERSONALIZAÇÕES DE REGRAS DE NEGOCIO:
+---
 
- - ADPTAÇÕES DE FLUXOS DE TRABALHO
- - CRIAÇÃO DE CAMPOS PERSONALIZADOS
- - AJUSTE
- - REGRAS DE VALIDAÇÃO
+### Configuração Inicial do Sistema:
 
----------------------------------------------------------
+- **Permissões**  
+- **Criação de usuários**  
+- **Operações da empresa**
 
+---
 
-Licença de uso: 
- - Quantos acessos o cliente terá acesso simultâneo 
+## Personalizações de Regras de Negócio:
 
---------------------------------------------------------
+- Adaptações de fluxos de trabalho  
+- Criação de campos personalizados  
+- Ajustes  
+- Regras de validação
 
+---
 
-TIPOS DE CADASTROS :
+## Licença de Uso:
 
-C - CLIENTES MERCADO INTERNO
-D - PRESTADORES DE SERVIÇO
-E - COMPRADOR
-F - FORNECEDORES ALMOXARIFADO
-P - PRODUTOR: ANIMAL VIVO
-I - FORNECEDOR: ANIMAL ABATIDO
-H - EMPRESAS DO GRUPO ( FILIAIS )
-K - PLANO DE CONTAS
-M - MOTORISTAS
-N - A PAGAR DIVERSOS (IMPOSTOS, TAXAS E OUTROS)
-O - PERFIL TRIBUTARIO - CG
-S - SISTEMA
-T - TRANSPORTADOR
-U - FUNCIONARIOS
-V - VENDEDORES
-X - CLIENTES MERCADO EXTERNO
-Y - FORNECEDOR MERCADO EXTERNO
-Z - PROSPECT
+- Quantos acessos simultâneos o cliente terá
 
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Tipos de Cadastros:
 
-CADASTRO DE FUNCIONARIO NO ERP: TIPO (U) FUNCIONARIOS
+| Código | Descrição                          |
+|--------|------------------------------------|
+| C      | Clientes Mercado Interno          |
+| D      | Prestadores de Serviço            |
+| E      | Comprador                         |
+| F      | Fornecedores Almoxarifado         |
+| P      | Produtor: Animal Vivo             |
+| I      | Fornecedor: Animal Abatido        |
+| H      | Empresas do Grupo (Filiais)       |
+| K      | Plano de Contas                   |
+| M      | Motoristas                        |
+| N      | A Pagar Diversos (Impostos, Taxas e Outros) |
+| O      | Perfil Tributário - CG            |
+| S      | Sistema                           |
+| T      | Transportador                     |
+| U      | Funcionários                      |
+| V      | Vendedores                        |
+| X      | Clientes Mercado Externo          |
+| Y      | Fornecedor Mercado Externo        |
+| Z      | Prospect                          |
 
-Obs: - Sempre por em letra maiúscula, e sem assentos
-     - Caso erre o CPF ou CNPJ precisa inativar o cadastro e realizar um novo.
+---
 
- - CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
+# Cadastro de Funcionário no ERP: Tipo (U) Funcionários
 
- - TIPO DE CADASTRO:
-   - LUPA
-   - FUNCIONARIOS
+**Observações:**
+- Sempre use letra maiúscula e sem acentos.
+- Caso erre o CPF ou CNPJ, será necessário inativar o cadastro e realizar um novo.
 
- - TIPO DE PESSOAS:
-   - FISICA 
-     - CPF ( CI )
-   - JURIDICA
-     - CNPJ ( NIT )
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Tipo de Cadastro:
+- **Lupa**
+- **Funcionários**
 
- - ESTADO:
-   - PR
+## Tipo de Pessoas:
+- **Física**  
+  - CPF (CI)  
+- **Jurídica**  
+  - CNPJ (NIT)
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Indicador de IE:
+- **Não Aplicável**
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Estado:
+- **PR**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
- - SALVAR
+## Endereço:
+- Preencha os campos obrigatórios.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
-RESPONSAVEL PELO CADATRO DE TODOS:
+## Salvar
+---
 
-MODULO TABELA AUXILIARES:
+# Responsável pelo Cadastro de Todos:
 
- - USUARIO
-   - @MATEUS
-     - CODIGO DE CADASTRO
-       - 86006 - MATEUS DE SOUZA
-        - POSTO DE TRABALHO
-         - CPD01 * C.P.D
-   
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Módulo Tabela Auxiliares:
 
-PRODUTOR RURAL
+- **Usuário:**  
+  - @Mateus  
+    - **Código de Cadastro:**  
+      - 86006 - Mateus de Souza  
+      - **Posto de Trabalho:**  
+        - CPD01 * C.P.D
 
- - CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     - P - PRODUTOR
+---
 
- - TIPO DE PESSOAS:
-   - FISICA 
-     - CPF ( CI )
+# Produtor Rural
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - ESTADO:
-   - ACRE
+## Tipo de Cadastro:
+- **Lupa**  
+  - **P - Produtor**
 
- - NOME: 
-   - APELIDO:
+## Tipo de Pessoas:
+- **Física**  
+  - CPF (CI)
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Indicador de IE:
+- **Não Aplicável**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Estado:
+- **Acre**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Nome:  
+- **Apelido:**
 
- - EMAIL:
-   - EMAIL DO CLIENTE: 
-   - CASO ELE NAO TENHA EMAIL: A@A.COM.BR
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
- - TELEFONE:
-   - (99)99999999
+## Endereço:
+- Preencha os campos obrigatórios.
 
- - CONTABILIDADE:
-   - SPEED REINF/ESOCIAL:
-     - INDICATIVO DA OPÇAO PELO PRODUTOR RURAL PELA FORMA DE TRIBUTAÇÃO DA CONTRIBUIÇÃO PREVIDENCIARIO:
-       - OPÇÃO 1: A EMPRESA RECOLHE
-       - OPÇÃO 2: O PRODUTOR QUE RECOLHE
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
- - SALVAR
+## E-mail:
+- E-mail do cliente.  
+  Caso ele não tenha e-mail: **A@A.COM.BR**
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Telefone:
+- **(99)99999999**
 
-PROPRIEDADE RURAL
+## Contabilidade:
+- **Speed Reinf/eSocial:**  
+  Indicativo da opção pelo produtor rural pela forma de tributação da contribuição previdenciária:  
+  - **Opção 1:** A empresa recolhe.  
+  - **Opção 2:** O produtor que recolhe.
 
-  - CADASTRO GERAL:
-   - PROPRIEDADE RURAL
-   - NOVO
-   - PRODUTOR RARAL:
-     - LUPA
+## Salvar
 
- - NOME PROPRIEDADE:
- - CPF/CNPJ
- - INSCRIÇÃO ESTADUAL:
- - ENDEREÇO:
- - MERCADOS HABILITADOS:
-   - LISTA GERAL
-   - MERCADO INTERNO
-   - IRÃ
+---
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Propriedade Rural
 
-                          TMV - TIPO DE MOVIMENTAÇÃO
+## Cadastro Geral:
+- **Propriedade Rural**
+- **Novo**
 
-- SISATAK
-  - COMPRA DE ANIMAIS:
-    - T220
-    - PERFIL TRIBUTARIO
-    - ...
-       - PRODUTOR RURAL MATEUS PF
-       - PROPRIEDADE RURAL
+## Produtor Rural:
+- **Lupa**
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Nome da Propriedade:
+- CPF/CNPJ  
+- Inscrição Estadual  
+- Endereço
 
-                            CADASTRO DE COMPRADOR
+## Mercados Habilitados:
+- **Lista Geral**  
+- **Mercado Interno**  
+- **Irã**
 
+# TMV - Tipo de Movimentação
 
- - CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     -  E - COMPRADOR
+- **Sisatak**  
+  - **Compra de Animais:**  
+    - T220  
+    - Perfil Tributário  
+      - Produtor Rural Mateus PF  
+      - Propriedade Rural
 
+---
 
- - TIPO DE PESSOAS:
-   - FISICA 
-     - CPF ( CI )
-   - JURIDICA
-     - CNPJ ( NIT )
+# Cadastro de Comprador
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - ESTADO:
-   - PR
+## Tipo de Cadastro:
+- **Lupa**  
+  - **E - Comprador**
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Tipo de Pessoas:
+- **Física**  
+  - CPF (CI)  
+- **Jurídica**  
+  - CNPJ (NIT)
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Indicador de IE:
+- **Não Aplicável**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Estado:
+- **PR**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
-ABRIR O CADASTRO PRODUTOR 
-   - COMERCIAL
-     - VENDEDOR: COLOCAR O COMPRADOR
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
- - SALVAR
+## Endereço:
+- Preencha os campos obrigatórios.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
-                         CADASTRO TRANSPORTADORA
+## Abrir o Cadastro Produtor:
+- Comercial  
+  - **Vendedor:** Colocar o comprador.
 
- - CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     - T - TRANSPORTADORA
+## Salvar
 
- - TIPO DE PESSOAS:
-   - JURIDICA
-     - CNPJ ( NIT )
+---
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+# Cadastro de Transportadora
 
- - ESTADO:
-   - PR
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Tipo de Cadastro:
+- **Lupa**  
+  - **T - Transportadora**
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Tipo de Pessoas:
+- **Jurídica**  
+  - CNPJ (NIT)
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Indicador de IE:
+- **Não Aplicável**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Estado:
+- **PR**
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
+## Endereço:
+- Preencha os campos obrigatórios.
 
-                CADASTRO DE FORNECEDOR ALMOXARIFADO
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
- - FORNECEDOR INTERNO: COMPUTADOR, EMBALAGEM, FACA
+---
 
-- CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     - F - ALMOXARIFADO
+# Cadastro de Fornecedor Almoxarifado
 
- - TIPO DE PESSOAS:
-   - JURIDICA
-     - CNPJ ( NIT )
+- **Fornecedor Interno:** Computador, Embalagem, Faca
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - ESTADO:
-   - PR
+## Tipo de Cadastro:
+- **Lupa**  
+  - **F - Almoxarifado**
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Tipo de Pessoas:
+- **Jurídica**  
+  - CNPJ (NIT)
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Indicador de IE:
+- **Não Aplicável**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Estado:
+- **PR**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
+## Endereço:
+- Preencha os campos obrigatórios.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
-                        ( I )  FORNECEDOR
+---
 
-FORNECEDOR - PARA REVENDA
+# (I) Fornecedor
 
-- CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     - ( I )  FORNECEDOR
+**Fornecedor - Para Revenda**
 
- - TIPO DE PESSOAS:
-   - JURIDICA
-     - CNPJ ( NIT )
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Tipo de Cadastro:
+- **Lupa**  
+  - **(I) Fornecedor**
 
- - ESTADO:
-   - PR
+## Tipo de Pessoas:
+- **Jurídica**  
+  - CNPJ (NIT)
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Indicador de IE:
+- **Não Aplicável**
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Estado:
+- **PR**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
+## Endereço:
+- Preencha os campos obrigatórios.
 
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                       CADASTRO ( M )  MOTORISTA
+# Cadastro (M) Motorista
 
-- CADASTRO GERAL:
-   - CADASTRO GERAL
-   - NOVO
- 
-- TIPO DE CADASTRO:
-   - LUPA        
-     - ( M )  MOTORISTA
+## Cadastro Geral:
+- **Cadastro Geral**
+- **Novo**
 
- - TIPO DE PESSOAS:
-     - FISICA ( NIT )
+## Tipo de Cadastro:
+- **Lupa**  
+  - **(M) Motorista**
 
- - INDICADOR DE IE:
-   - NÃO APLICAVEL
+## Tipo de Pessoas:
+- **Física (NIT)**
 
- - ESTADO:
-   - PR
+## Indicador de IE:
+- **Não Aplicável**
 
- - NOME: RAZÃO SOCIAL
-   - APELIDO: NOME FANTASIA 
+## Estado:
+- **PR**
 
- - FILIAL: 
-   - 100
-   - QUAL FILIAL SERA FEITO O CADASTRADO 
+## Nome: Razão Social  
+- **Apelido: Nome Fantasia**
 
- - ENDEREÇO:
-   - PREENCHA OS CAMPOS OBRIGATORIOS
+## Filial:
+- **100**  
+  Qual filial será feito o cadastro.
 
-OBS:
-     - CASO SEJA O MESMO ENDREÇO: REPLICAR O MESMO ENDEREÇO
-     - CASO ALGUM EDEREÇO SEJA DIFERENTE FAZER CAMPO A CAMPO: FATURAMENTO - COBRANÇA - ENTREGA - RESIDENCIAL - TRABALHO
+## Endereço:
+- Preencha os campos obrigatórios.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-                                   CUSTOMIZAÇÃO
+**Observações:**
+- Caso seja o mesmo endereço: replicar o mesmo endereço.  
+- Caso algum endereço seja diferente, preencher campo a campo: faturamento, cobrança, entrega, residencial, trabalho.
 
+---
 
-CUSTOMIZAÇÃO:
- - CADASTRO GERAL
-   - TIPOS DE CADASTRO
-   - N
-     - CAMPOS OBRIGATORIOS
+# Customização
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-     
-  
---------------------------------------------------------
-- CADASTRO DE DISPOSITIVOS 
-  - PARA CADASTRO DE FORÇA DE VENDAS DO MOBILE ( CADASTRO DE ID PARA APENAS UM CELULAR )
----------------------------------------------------------
+## Customização:
+- **Cadastro Geral**
+  - **Tipos de Cadastro**
+  - **N**
+    - Campos obrigatórios
 
-  ------------------- PERMISSOES DE RECURSOS ( CRIAÇÃO DE PERFIL ) ---------------
+---
 
+# Cadastro de Dispositivos
 
----------------------------------------------------------
+## Objetivo:
+- Para cadastro de força de vendas do mobile (Cadastro de ID para apenas um celular).
 
----------------------------------------------------------------------------------- ATENÇÃO -----------------------
- - para poder utilizar o perfil de um grupo, crie o perfil ( grupo )
-   - vincule o grupo ao perfil de usuário no cadastro do usuário
----------------------------------------------------------
----------------------------------------------------------
+---
 
-PASSO A PASSO:
+# Permissões de Recursos (Criação de Perfil)
 
-CADASTRO GERAL:
-- CRIAR EM CADASTRO GERAL O USUARIO:
-  - CADASTRO GERAL
-    - NOVO
-      - .... 
+## Atenção:
+- Para poder utilizar o perfil de um grupo:  
+  - Crie o perfil (grupo).  
+  - Vincule o grupo ao perfil de usuário no cadastro do usuário.
 
-TABELAS AUXILIARES:
-- CRIAR PERFIL DO GRUPO (PF) EM TABELAS AUXILIARES
-  - APOS FINALIZAR O CADASTRO, IR EM TIPO DE CADASTRO, INDIQUE O TIPO DE CADASTRO NESSE EXEMPLO UTILIZAMOS O TIPO 'C'
-- CRIAR USUARIO TABELAS AUXILIARES ( FUNCIONARIO )
-  - NO CAMPO PERFIL DE USUARIO COLOQUE O PF QUE FOI CRIADO
- 
-ABRA O USUARIO PRINCIPAL NO SISATAK
- - FERRAMENTAS
-   - CADASTROS E LOGINS
-     - PRINCIPAL
-       - MENU
-       - PESQUISAR
-       - ACHE O USUARIO
-         - SENHA
-         - CONFIRMAR A SENHA
+---
 
-       - ADD MANUALMENTE AS PERMISSÕES E TELAS QUE O USUARIO IRA PODER TER ACESSO
-       - FECHE TODO O PROGRAMA E ABRA COM O LOGIN DO USUARIO 
-       - VERIFIQUE SE AS ALTERAÇÕES FORAM REALIZADAS COM SUCESSO 
+## Passo a Passo:
 
+### Cadastro Geral:
+- Criar em **Cadastro Geral** o usuário:
+  - **Cadastro Geral**
+    - **Novo**
 
+### Tabelas Auxiliares:
+- Criar perfil do grupo (PF) em **Tabelas Auxiliares**.  
+  - Após finalizar o cadastro, ir em **Tipo de Cadastro** e indicar o tipo de cadastro (neste exemplo utilizamos o tipo 'C').  
+- Criar usuário em **Tabelas Auxiliares** (Funcionário).  
+  - No campo **Perfil de Usuário**, coloque o PF que foi criado.
 
+### Abrir o Usuário Principal no Sisatak:
+- Ferramentas:  
+  - **Cadastros e Logins**  
+    - **Principal**
+      - **Menu**
+      - **Pesquisar**
+      - Localizar o usuário:
+        - Senha  
+        - Confirmar a senha  
+      - Adicionar manualmente as permissões e telas que o usuário irá poder ter acesso.  
+      - Fechar todo o programa e abrir com o login do usuário.  
+      - Verificar se as alterações foram realizadas com sucesso.
 
+# Usuários
 
+**Funcionário:**  
+- FUNCIONARIO.MATEUS.TI  
+- Senha: 123  
 
-USUARIO
-FUNCIONARIO.MATEUS.TI
-123
+**Menor Aprendiz Mateus:**  
+- PFMATEUS.TI  
 
-USUARIO
-MENOR APRENDIZ MATEUS
+---
 
-  PFMATEUS.TI
----------------------------------------------------------
----------------------------------------------------------
+# Logística
 
-----------------------  LOGISTICA ----------------------
+## Cadastro de Veículo
 
-- CADASTRO DE VEICULO   
+### Módulo Logístico:
+- **Tipos de Veículos:**
+  - Código  
+  - Nome  
+  - Tipo Rodado  
+  - Função do Veículo  
+  - Faixa Inicial de Peso e Final  
+  - Faixa Inicial de Quantidade de Pedidos e Final  
 
- - MODULO LOGISTICO
-   - TIPOS DE VEICULOS
-     - CODIGO
-     - NOME
-     - TIPO RODADO
-     - FUNÇÃO DO VEICULO
-     - FAIXA INICIAL DE PESO E FINAL
-     - FAIXA INICIAL DE QUANDIDADE DE PEDIDOS E FINAL
- - ESPECIFICAÇÕES
-   - MOTORISTA SEMPRE SER DO TIPO - M
+### Especificações:
+- O motorista deve sempre ser do tipo **M**.
 
+---
 
-    - CADASTRO DE VEICULO
-     - VEÍCULO
-      - PLACA
-      - UF PLACA
-      - TIPO DE VEICULO
-      - MARCA/MODELO
-      - QUILOMETRAGEM
-      - QUILOMETRAGEM AUTOTRACK
-      - CENTRO DE CUSTO
-     - ESPECIFICAÇÕES
- 
----------------------------------------------------------
+## Cadastro de Veículo:
+- **Veículo:**
+  - Placa  
+  - UF Placa  
+  - Tipo de Veículo  
+  - Marca/Modelo  
+  - Quilometragem  
+  - Quilometragem Autotrack  
+  - Centro de Custo  
 
+- **Especificações:**
+  - Preencha as informações obrigatórias.
 
 
-
-
-
-
-
-PLACA - UNO111
-PLACA - UMA222
-EMPRESA GRUPO MATEUS
-FORNECEDOR ALMOXARIFADO MATEUS 
-59120280
-a@a.com.br
-mateus.souza@ataksistemas.com.br
-PRESTADOR DE SERVIÇO MATEUS 
